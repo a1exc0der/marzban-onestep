@@ -195,14 +195,13 @@ echo -e "Short ID:        $SHORT_ID"
 echo -e "Trojan пароль:   $TROJAN_PASS"
 echo -e "SS пароль:       $SHADOWSOCKS_PASS"
 echo -e "Сохранено в:     ${YELLOW}$INFO_FILE${NC}\n"
+echo -e "${YELLOW}📄 Файл защищен — только root может его прочитать.${NC}\n"
 
 echo -e "${CYAN}🔌 Доступные порты:"
 echo -e "- VLESS TCP Reality: 443"
 echo -e "- VLESS WS: 8443 (путь: /ws)"
 echo -e "- Trojan TCP: 4433"
 echo -e "- Shadowsocks: 8388${NC}\n"
-
-echo -e "${YELLOW}📄 Файл защищен — только root может его прочитать.${NC}\n"
 
 echo -e "${CYAN}========== 👇СКОПИРУЙТЕ ЭТОТ БЛОК В ПАНЕЛЬ MARZBAN XRAY ТУДА ГДЕ ШЕСТЕРЕНКА👇==========${NC}\n"
 echo -e "$CONFIG"
